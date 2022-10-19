@@ -1,13 +1,17 @@
 def myAddition(a,b):
-    return a+b
+    return (a+b)
+    
+while True:
+    try:
+        nb1 = int(input("Entrez le premier nombre : "))
+        nb2 = int(input("Entrez le deuxième nombre pour l'addition : "))
 
-
-nb1 = int(input("Entrez le premier nombre : "))
-
-nb2 = int(input("Entrez le deuxième nombre pour l'addition : "))
+        break
+    except ValueError:
+        print("Saisie érronée ! ")
 
 result = myAddition(nb1,nb2)
-print("le résultat est :",result)
+print("la somme est :",result)
 
 #################autre fonction######################
 
