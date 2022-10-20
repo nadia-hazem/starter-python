@@ -3,8 +3,8 @@ def myAddition(a,b):
     
 while True:
     try:
-        nb1 = int(input("Entrez le premier nombre : "))
-        nb2 = int(input("Entrez le deuxième nombre pour l'addition : "))
+        nb1 = int(input("Entrez un nombre : "))
+        nb2 = int(input("Entrez le second nombre pour l'addition : "))
 
         break
     except ValueError:
